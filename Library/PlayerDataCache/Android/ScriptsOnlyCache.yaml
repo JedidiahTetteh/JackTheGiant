@@ -33,10 +33,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -99,31 +97,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 12640}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12800}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 12948}
-    - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 12950}
     - Class: 114
       Script: {instanceID: 13108}
     - Class: 114
-      Script: {instanceID: 13458}
+      Script: {instanceID: 13110}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13800}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 13950}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 14416}
     - Class: 114
-      Script: {instanceID: 23852}
+      Script: {instanceID: 14748}
     - Class: 114
-      Script: {instanceID: 62972}
+      Script: {instanceID: 14992}
+    - Class: 114
+      Script: {instanceID: 15166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -166,15 +164,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 13458}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13480}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14416}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 15166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,21 +217,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 13458}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 14238}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14244}
     - Class: 114
-      Script: {instanceID: 14912}
+      Script: {instanceID: 14416}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 14776}
     - Class: 114
-      Script: {instanceID: 21428}
+      Script: {instanceID: 14922}
     - Class: 114
-      Script: {instanceID: 59272}
+      Script: {instanceID: 15166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -266,15 +264,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 12946}
     - Class: 114
-      Script: {instanceID: 13458}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14416}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 15166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -496,6 +494,12 @@ ScriptsOnlyBuild:
     className: PixelPerfectCamera
   - hash:
       serializedVersion: 2
+      Hash: f0c2dd1cf1d190792be280016c42d23e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenFader
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -658,6 +662,12 @@ ScriptsOnlyBuild:
     className: CameraScript
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MusicController
+  - hash:
+      serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -760,10 +770,22 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Joystick
+  - hash:
+      serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: f0c2dd1cf1d190792be280016c42d23e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneFader
   - hash:
       serializedVersion: 2
       Hash: 3625d5cb4678da8ed6dc1af152f22973
@@ -782,6 +804,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: cca67cbda2c3f03f70ea43560b7f7bff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMoveJoystick
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -866,36 +894,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MusicController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Joystick
-  - hash:
-      serializedVersion: 2
-      Hash: f0c2dd1cf1d190792be280016c42d23e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneFader
-  - hash:
-      serializedVersion: 2
-      Hash: f0c2dd1cf1d190792be280016c42d23e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScreenFader
-  - hash:
-      serializedVersion: 2
-      Hash: cca67cbda2c3f03f70ea43560b7f7bff
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMoveJoystick
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

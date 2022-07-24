@@ -153,10 +153,10 @@ RectTransform:
   m_Father: {fileID: 1560234248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 720, y: 1024}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0.00024414062, y: 0}
+  m_SizeDelta: {x: -0.00061035156, y: 2560}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48853231
 MonoBehaviour:
@@ -229,8 +229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.98, y: -110.9}
-  m_SizeDelta: {x: 283.9339, y: 75.12863}
+  m_AnchoredPosition: {x: 23, y: -245}
+  m_SizeDelta: {x: 518.68713, y: 201.37212}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137116327
 MonoBehaviour:
@@ -253,11 +253,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 610e117bdc6117b42a2d824392428ab3, type: 3}
-    m_FontSize: 40
+    m_FontSize: 150
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -391,8 +391,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -194, y: -354}
-  m_SizeDelta: {x: 65, y: 65}
+  m_AnchoredPosition: {x: -439, y: -1038}
+  m_SizeDelta: {x: 178.85892, y: 178.87573}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463808854
 MonoBehaviour:
@@ -631,8 +631,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.68, y: -213.5}
-  m_SizeDelta: {x: 213.82379, y: 64.86552}
+  m_AnchoredPosition: {x: 23, y: -507}
+  m_SizeDelta: {x: 303.59177, y: 178.29839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030431072
 MonoBehaviour:
@@ -655,11 +655,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 610e117bdc6117b42a2d824392428ab3, type: 3}
-    m_FontSize: 40
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
